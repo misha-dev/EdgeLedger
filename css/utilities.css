@@ -16,6 +16,16 @@
     color: #fff;
 }
 
+.bgLight {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bgDark {
+    background-color: #333;
+    color: #fff;
+}
+
 
 /* Buttons */
 
@@ -51,7 +61,7 @@
 }
 
 .wrapper>div {
-    padding: 50px 90px;
+    padding: 40px 90px;
 }
 
 
@@ -79,6 +89,10 @@
     line-height: 2rem;
 }
 
+.contactImg img {
+    height: 100%;
+}
+
 .column2 h4 {
     font-size: 1.3rem;
 }
@@ -86,6 +100,11 @@
 .column2 p {
     margin: 15px 0;
     font-size: 1.2rem;
+}
+
+.column2 h2 {
+    font-size: 2.3rem;
+    font-weight: 100;
 }
 
 
