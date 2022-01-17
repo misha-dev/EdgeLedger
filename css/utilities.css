@@ -11,6 +11,12 @@
 }
 
 
+.bgSecondary {
+    background-color: #0284d0;
+    color: #fff;
+}
+
+
 /* Buttons */
 
 .btn {
@@ -53,7 +59,8 @@
     display: flex;
 }
 
-.row .column1, .column2 {
+.row .column1,
+.column2 {
     height: 100%;
 
 }
@@ -79,4 +86,49 @@
 .column2 p {
     margin: 15px 0;
     font-size: 1.2rem;
+}
+
+
+/* Section header */
+
+.sectionHeader {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sectionHeader h2 {
+    font-size: 2.2rem;
+    margin: 20px 0;
+}
+
+.sectionPadding {
+    padding: 20px 20px 40px;
+}
+
+/* Flex Grid */
+
+.flexGrid .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+}
+
+
+.flexGrid .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 4px;
+}
+
+.flexReverse .row {
+    flex-direction: row-reverse;
+}
+
+
+.flexReverse .column img {
+    height: 100%;
 }
