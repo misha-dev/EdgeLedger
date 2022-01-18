@@ -90,7 +90,9 @@
 }
 
 .contactImg img {
+    width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .column2 h4 {
