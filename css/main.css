@@ -71,7 +71,6 @@ button::-moz-focus-inner {
 a,
 a:visited {
     text-decoration: none;
-    color: inherit;
 }
 
 a:hover {
@@ -272,6 +271,7 @@ h2 {
 
 .footer a {
     margin-right: 20px;
+    color: inherit;
 }
 
 .footer a:hover {
