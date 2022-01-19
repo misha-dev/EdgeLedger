@@ -225,6 +225,10 @@ h2 {
     opacity: 0.7;
 }
 
+.cases .column img {
+    height: 340px;
+}
+
 #team img:hover {
     transform: scale(1.2);
 }
@@ -276,4 +280,59 @@ h2 {
 
 .footer h4 {
     font-weight: 100;
+}
+
+.column img {
+    height: 100%;
+    flex: 1;
+}
+
+
+/* Blog Page */
+
+.heroBlog {
+    height: 20vh;
+    background: url(../img/home/blog.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogHeader {
+    font-size: 3.4rem;
+    font-weight: 300;
+}
+
+.column1,
+.column2 {
+    height: 100%;
+}
+
+/* Post  Page */
+
+#post {
+    padding: 60px 40px;
+}
+
+#post h2 {
+    font-size: 3.2rem;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px #ccc solid;
+}
+
+#post p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+}
+
+#post img {
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+}
+
+.contactImg img {
+    display: block;
 }

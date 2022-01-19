@@ -15,10 +15,11 @@
 
 .column,
 .flexGrid .column {
-    max-width: 100%;
-    flex: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
 }
-
 
 
 
@@ -28,10 +29,25 @@
 
 .solutions .row,
 #blog .row {
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 
 .flexReverse .row {
     flex-direction: column;
+}
+
+#blog1 .row,
+#blog2 .row,
+#blog3 .row {
+    flex-direction: column;
+}
+
+
+/* Cases */
+
+#cases .row .column {
+    display: block;
+    max-width: 100%;
+    flex: 100%;
 }
