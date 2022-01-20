@@ -49,6 +49,7 @@ body {
 }
 
 
+
 input,
 button,
 textarea {
@@ -167,7 +168,12 @@ h2 {
     opacity: 0.8;
     position: fixed;
     top: 0px;
+    transition: 0.3s ease-in-out;
 
+}
+
+.navbar.top {
+    background-color: transparent;
 }
 
 .navbar ul {
@@ -336,3 +342,5 @@ h2 {
 .contactImg img {
     display: block;
 }
+
+
